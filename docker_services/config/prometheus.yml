@@ -16,19 +16,14 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090']
 
-  # Example job for node_exporter
   - job_name: 'kafka_exporter'
     static_configs:
       - targets: ['kafka_exporter:9308']
 
   - job_name: 'elasticsearch_exporter'
-    # scrape_interval: 10s
-    # metrics_path: "/_prometheus/metrics"
     static_configs:
       - targets: ['elasticsearch_exporter:9114']
   
   - job_name: 'cadvisor_exporter'
-  # scrape_interval: 10s
-  # metrics_path: "/_prometheus/metrics"
     static_configs:
       - targets: ['cadvisor:8080']
