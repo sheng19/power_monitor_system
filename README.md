@@ -43,4 +43,9 @@ The system is designed to achieve real-time collection of electricity consumptio
       docker-compose ps
       ```
 
-3. Monitoring the Service Performance
+# Service Performance
+   - Kafka Performance
+     <img width="1600" alt="image" src="https://github.com/sheng19/power_monitor_system/assets/49142310/a7248c09-2131-4d24-ba44-33d346fd1eb0">
+
+   - ElasticSearch Performance
+     ![image](https://github.com/sheng19/power_monitor_system/assets/49142310/714cf9dc-487d-4f23-ae71-0e46de22352a)
